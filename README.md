@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github](https://github.com/anerpeco/equalizer-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [vercel](https://equalizer-landing-page-anerpeco.vercel.app/)
 
 ## My process
 
