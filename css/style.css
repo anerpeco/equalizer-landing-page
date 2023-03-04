@@ -1,0 +1,409 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsla(244, 23%, 12%, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 23.4375rem;
+    background-color: hsla(20, 33%, 98%, 1);
+    background-image: url(../assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: 1.875rem -16.875rem;
+}
+
+@media screen and (min-width: 48rem) {
+    .container {
+        width: min(100%, 48rem);
+        background-image: url(../assets/bg-main-tablet.png), url(../assets/bg-pattern-1.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: -20.875rem -16.875rem, 33rem -2.5rem;
+        background-size: auto, 16.6669rem 25rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    .container {
+        width: min(100%, 90rem);
+        background-image: url(../assets/bg-main-desktop.png), url(../assets/bg-pattern-1.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: -20.875rem -16.875rem, 70.5rem -2.5rem;
+        background-size: auto, 19.5rem 29.25rem;
+    }
+}
+
+header {
+    width: 100%;
+    height: 7rem;
+    padding: 2.5rem 1.5rem;
+}
+
+@media screen and (min-width: 48rem) {
+    header {
+        height: 9.75rem;
+        padding: 3.875rem 2.4375rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    header {
+        padding: 3.875rem 10.3125rem;
+    }
+}
+
+header img {
+    width: 9.1306rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -0.0284rem;
+    margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 48rem) {
+    h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+        letter-spacing: -0.0455rem;
+        margin: 2.0625rem 13.0625rem 0 2.4375rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    h1 {
+        font-size: 5.5rem;
+        line-height: 5.5rem;
+        letter-spacing: -0.0625rem;
+        margin: 4.0625rem 16.25rem 0 10.3125rem;
+    }
+}
+
+article p {
+    margin-top: 1.25rem;
+    line-height: 1.625rem;
+}
+
+@media screen and (min-width: 48rem) {
+    article p {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        margin: 1.75rem 13.4375rem 0 2.4375rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    article p {
+        font-size: 1.25rem;
+        line-height: 2.125rem;
+        margin: 2.5rem 28.1563rem 0 10.2813rem;
+    }
+}
+
+.premium_container {
+    position: relative;
+    width: 100%;
+    height: 37.5rem;
+    background-color: hsla(242, 22%, 12%, 1);
+    background-image: url(../assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-size: 17.5rem 26.25rem;
+    background-position-x: 50%;
+    border-radius: .75rem;
+    margin-top: 10.375rem;
+}
+
+@media screen and (min-width: 48rem) {
+    .premium_container {
+        background-image: url(../assets/bg-pattern-2.svg);
+        background-repeat: no-repeat;
+        background-size: 17.5rem 26.25rem;
+        background-position-x: 56%;
+        background-position-y: -15%;
+        margin: 15.5625rem 2.4375rem 0 2.0625rem;
+        width: calc(100% - 4.5rem);
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    .premium_container {
+        background-size: 19.5rem 468px;
+        background-position-x: 21rem;
+        background-position-y: -2.5rem;
+        margin: 20.0625rem 10.3125rem 0;
+        width: calc(100% - 20.625rem);
+    }
+}
+
+.app_img {
+    position: absolute;
+    top: -6.125rem;
+    left: 5.0419rem;
+    width: 13.0606rem;
+}
+
+@media screen and (min-width: 48rem) {
+    .app_img {
+        top: -8.625rem;
+        left: 4rem;
+        width: 16.8881rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    .app_img {
+        top: -13.3125rem;
+        left: 6.375rem;
+        width: 19.5rem;
+    }
+}
+
+.download_premium {
+    position: absolute;
+    top: 23.75rem;
+    width: 100%;
+    background-color: hsla(12, 94%, 65%, 1);
+    color: hsla(20, 33%, 98%, 1);
+    border-radius: .75rem;
+    padding: 3rem 2.25rem;
+}
+
+@media screen and (min-width: 48rem) {
+    .download_premium {
+        top: 9.375rem;
+        left: 14.9375rem;
+        width: 24.9375rem;
+        padding: 3rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    .download_premium {
+        top: 5.625rem;
+        left: 35.5625rem;
+        width: 27.875rem;
+        padding: 3.625rem 3.6875rem 3rem 3.375rem;
+    }
+}
+
+.download_premium h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+@media screen and (min-width: 90rem) {
+    .download_premium h2 {
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+    }
+}
+
+.download_premium p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: .75rem;
+}
+
+@media screen and (min-width: 48rem) {
+    .download_premium p {
+        margin: 0;
+        margin-top: .75rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    .download_premium p {
+        font-size: 1.25rem;
+        line-height: 2.125rem;
+        margin: 0;
+        margin-top: 1.375rem;
+    }
+}
+
+.price p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    letter-spacing: -0.0125rem;
+    margin-block-start: 0;
+    margin-top: 2.25rem;
+    padding-left: .375rem;
+}
+
+@media screen and (min-width: 90rem) {
+    .price p {
+        margin-top: 2.4375rem;
+        padding-left: 0;
+    }
+}
+
+.price span {
+    font-size: 4.0625rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-right: 1rem;
+}
+
+.btn {
+    display: block;
+    width: calc(100% - .375rem);
+    height: 3.8125rem;
+    margin-left: .375rem;
+    border: none;
+    border-radius: .75rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: -0.0112rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 90rem) {
+    .btn {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.btn img {
+    align-self: center;
+    line-height: 3.8125rem;
+    height: 1.25rem;
+    margin-right: .4938rem;
+}
+
+.ios_btn {
+    background-color: hsla(244, 23%, 12%, 1);
+    color: hsla(20, 33%, 98%, 1);
+    margin-top: 2rem;
+}
+
+.ios_btn:hover {
+    cursor: pointer;
+    background-color: hsla(177, 68%, 64%, 1);
+}
+
+@media screen and (min-width: 90rem) {
+    .ios_btn {
+        margin-top: 2.875rem;
+    }
+}
+
+.android_btn {
+    background-color: hsla(20, 33%, 98%, 1);
+    color: hsla(244, 23%, 12%, 1);
+    margin-top: 1rem;
+}
+
+.android_btn:hover {
+    cursor: pointer;
+    background-color: hsla(33, 100%, 70%, 1);
+}
+
+footer {
+    width: 100%;
+    margin-top: 24.375rem;
+}
+
+@media screen and (min-width: 48rem) {
+    footer {
+        width: calc(100% - 4.5rem);
+        margin: 11.4375rem 2.4375rem 5.3125rem 2.0625rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    footer {
+        width: calc(100% - 20.625rem);
+        margin: 12.625rem 10.3125rem 5.6875rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+footer img {
+    width: 9.1306rem;
+    margin: 0 1.5rem 0;
+}
+
+@media screen and (min-width: 48rem) {
+    footer img {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    footer img {
+        height: 2rem;
+    }
+}
+
+.contact {
+    width: calc(100% - 3rem);
+    margin: 2rem 1.5rem 0;
+}
+
+@media screen and (min-width: 48rem) {
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 0 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    .contact {
+        margin: 0;
+        width: 75%;
+    }
+}
+
+.contact p {
+    line-height: 1.625rem;
+}
+
+@media screen and (min-width: 48rem) {
+    .contact p {
+        max-width: 22.875rem;
+    }
+}
+
+.contact a {
+    text-decoration: none;
+    color: hsla(244, 23%, 12%, 1);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.social_media {
+    display: flex;
+    gap: 1.25rem;
+    margin: 4rem 0 5rem;
+}
+
+@media screen and (min-width: 48rem) {
+    .social_media {
+        margin: 0;
+    }
+}
+
+.social_media .fa-brands {
+    color: hsla(244, 23%, 12%, 1);
+    font-size: 1.3rem;
+}
+
+.social_media .fa-brands:hover {
+    color: hsla(12, 94%, 65%, 1);
+}
